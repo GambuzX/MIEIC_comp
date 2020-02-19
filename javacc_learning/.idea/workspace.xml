@@ -1,13 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d6ef9ad9-c985-4b6b-96b6-fb0491e94e69" name="Default Changelist" comment="" />
+    <list default="true" id="d6ef9ad9-c985-4b6b-96b6-fb0491e94e69" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/jjt/MyConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Example.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Example.jj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExampleConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExampleConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExampleTokenManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExampleTokenManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParseException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParseException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SimpleCharStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SimpleCharStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Token.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Token.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TokenMgrError.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TokenMgrError.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1Y1bP9k3aArbSsctGJahBTOpz62" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -35,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582113020687</updated>
-      <workItem from="1582113023467" duration="1233000" />
+      <workItem from="1582113023467" duration="3076000" />
     </task>
     <servers />
   </component>
