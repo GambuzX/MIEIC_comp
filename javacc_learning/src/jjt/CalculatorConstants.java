@@ -12,6 +12,10 @@ public interface CalculatorConstants {
   int INTEGER = 4;
   /** RegularExpression Id. */
   int LF = 5;
+  /** RegularExpression Id. */
+  int SYMBOL = 6;
+  /** RegularExpression Id. */
+  int PV = 7;
 
   /** Lexical state. */
   int DEFAULT = 0;
@@ -19,11 +23,14 @@ public interface CalculatorConstants {
   /** Literal token values. */
   String[] tokenImage = {
     "<EOF>",
-    "\"\"",
+    "\" \"",
     "\"\\r\"",
     "\"\\t\"",
     "<INTEGER>",
     "\"\\n\"",
+    "<SYMBOL>",
+    "\";\"",
+    "\"=\"",
     "\"+\"",
     "\"-\"",
     "\"*\"",
