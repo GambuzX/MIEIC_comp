@@ -1,0 +1,16 @@
+1) As in C arrays are just pointers to variables, they do not store any information regarding their size. This function
+will throw an error as the compiler does not have enough information to access an element of the matrix according to the formula 
+above mentioned: "A[i][j] = A+(i * INNER_ARRAY_SIZE + j) * VAR_SIZE". For this reason, the size of the inner array must be specified.
+
+2) Julia
+
+3) In java everything is a class, even arrays (and 2d arrays). Thus, they are able to store information such as their size.
+
+4) B[i][j][t] = B + (i*2*4 + j*4 + t) * 4
+
+5) A[i1][i2][i3]...[in] = A + (i1*S2*S3*...*Sn + i2*S3*...*Sn + i3*...*Sn + in) * sizeof(int)
+
+6) As we have seen, in C the matrixes are stored in contiguous memory row by row, which means we have the first row in sequence, then the second and so on.
+The code below is iterating over the columns first, instead of the rows, thus causing the memory accesses to be "jumping" from row to row instead of following
+the order in memory, introducing an unnecessary overhead.
+By interchanging the loops this memory order is followed and the accesses are sequential, with less calculations by the processor, so it is only natural that the program runs faster.
